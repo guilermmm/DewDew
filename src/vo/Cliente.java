@@ -3,7 +3,7 @@ package vo;
 public class Cliente {
 	private String nome;
 	private String endereço;
-	private int cpf;
+	private String cpf;
 	
 	public Cliente() {
 		
@@ -21,10 +21,14 @@ public class Cliente {
 	public void setEndereço(String endereço) {
 		this.endereço = endereço;
 	}
-	public int getCpf() {
+
+	public String getCpf() {
 		return cpf;
 	}
-	public void setCpf(int cpf) {
+
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+	
 }
+
