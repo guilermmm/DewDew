@@ -14,6 +14,7 @@ public class Aluguel {
 	public void setLivroAtivo(String livroAtivo) {
 		this.livroAtivo = livroAtivo;
 	}
+	
 	public String getDiscoAtivo() {
 		return discoAtivo;
 	}

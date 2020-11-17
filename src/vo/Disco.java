@@ -10,7 +10,6 @@ public class Disco extends ItemPadrao {
 	public String getNomeBanda() {
 		return nomeBanda;
 	}
-
 	public void setNomeBanda(String nomeBanda) {
 		this.nomeBanda = nomeBanda;
 	}

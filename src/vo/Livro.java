@@ -14,6 +14,7 @@ class Livro {
 	public void setQtdPaginas(int qtdPaginas) {
 		this.qtdPaginas = qtdPaginas;
 	}
+	
 	public String getAutor() {
 		return autor;
 	}
