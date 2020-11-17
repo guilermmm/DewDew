@@ -1,27 +1,29 @@
 package vo;
 
 public class ClienteVO extends PessoaVO{
-	private DiscoVO aluguelAtivoDisco;
-	private LivroVO aluguelAtivoLivro;
+	private DiscoVO[] aluguelAtivoDisco;
+	private LivroVO[] aluguelAtivoLivro;
 	
 	public ClienteVO() {
 		
 	}
 
-	public DiscoVO getAluguelAtivoDisco() {
+	public DiscoVO[] getAluguelAtivoDisco() {
 		return aluguelAtivoDisco;
 	}
 
-	public void setAluguelAtivoDisco(DiscoVO aluguelAtivoDisco) {
+	public void setAluguelAtivoDisco(DiscoVO[] aluguelAtivoDisco) {
 		this.aluguelAtivoDisco = aluguelAtivoDisco;
 	}
 
-	public LivroVO getAluguelAtivoLivro() {
+	public LivroVO[] getAluguelAtivoLivro() {
 		return aluguelAtivoLivro;
 	}
 
-	public void setAluguelAtivoLivro(LivroVO aluguelAtivoLivro) {
+	public void setAluguelAtivoLivro(LivroVO[] aluguelAtivoLivro) {
 		this.aluguelAtivoLivro = aluguelAtivoLivro;
 	}
+
+	
 }
 
