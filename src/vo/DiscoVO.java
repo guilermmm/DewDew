@@ -1,9 +1,9 @@
 package vo;
 
-public class Disco extends ItemPadrao {
+public class DiscoVO extends ProdutoVO {
 	private String nomeBanda;
 
-	public Disco() {
+	public DiscoVO() {
 		
 	}
 

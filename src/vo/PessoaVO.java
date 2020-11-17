@@ -1,13 +1,9 @@
 package vo;
 
-public class Cliente {
+public class PessoaVO {
 	private String nome;
 	private String endereco;
 	private String cpf;
-	
-	public Cliente() {
-		
-	}
 	
 	public String getNome() {
 		return nome;
@@ -37,4 +33,3 @@ public class Cliente {
 		}
 	}
 }
-

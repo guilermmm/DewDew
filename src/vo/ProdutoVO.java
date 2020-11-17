@@ -1,6 +1,6 @@
 package vo;
 
-public class ItemPadrao {
+public class ProdutoVO {
 	private String titulo;
 	private String genero;
 	private int ano;

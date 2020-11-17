@@ -1,10 +1,10 @@
 package vo;
 
-class Livro {
+public class LivroVO extends ProdutoVO{
 	private int qtdPaginas;
 	private String autor;
 	
-	public Livro() {
+	public LivroVO() {
 		
 	}
 	
@@ -21,5 +21,4 @@ class Livro {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
-
 }
